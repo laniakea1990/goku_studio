@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+SIZE	2048.c	20;"	d	file:
+_XOPEN_SOURCE	2048.c	9;"	d	file:
+addRandom	2048.c	/^void addRandom(uint16_t board[SIZE][SIZE]) {$/;"	f
+countEmpty	2048.c	/^int16_t countEmpty(uint16_t board[SIZE][SIZE]) {$/;"	f
+drawBoard	2048.c	/^void drawBoard(uint16_t board[SIZE][SIZE]) {$/;"	f
+findPairDown	2048.c	/^bool findPairDown(uint16_t board[SIZE][SIZE]) {$/;"	f
+findTarget	2048.c	/^int8_t findTarget(uint16_t array[SIZE],int8_t x,int8_t stop) {$/;"	f
+gameEnded	2048.c	/^bool gameEnded(uint16_t board[SIZE][SIZE]) {$/;"	f
+getColor	2048.c	/^void getColor(uint16_t value, char *color, size_t length) {$/;"	f
+main	2048.c	/^int main(int argc, char *argv[]) {$/;"	f
+moveDown	2048.c	/^bool moveDown(uint16_t board[SIZE][SIZE]) {$/;"	f
+moveLeft	2048.c	/^bool moveLeft(uint16_t board[SIZE][SIZE]) {$/;"	f
+moveRight	2048.c	/^bool moveRight(uint16_t board[SIZE][SIZE]) {$/;"	f
+moveUp	2048.c	/^bool moveUp(uint16_t board[SIZE][SIZE]) {$/;"	f
+rotateBoard	2048.c	/^void rotateBoard(uint16_t board[SIZE][SIZE]) {$/;"	f
+score	2048.c	/^uint32_t score=0;$/;"	v
+setBufferedInput	2048.c	/^void setBufferedInput(bool enable) {$/;"	f
+signal_callback_handler	2048.c	/^void signal_callback_handler(int signum) {$/;"	f
+slideArray	2048.c	/^bool slideArray(uint16_t array[SIZE]) {$/;"	f
+test	2048.c	/^int test() {$/;"	f
