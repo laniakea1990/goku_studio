@@ -1,5 +1,5 @@
 #include "apue.h"
-
+#include "apueerror.h"
 int
 main(void)
 {
@@ -14,7 +14,7 @@ main(void)
 		err_sys("fork error");
 	} else if (pid > 0) {		/* parent */
 		close(fd[0]);
-		write(fd[1], "hello world\n", 12);
+		write(fd[1], "Welcome to JiangXi!", 26);
 	} else {				/* child */
 		close(fd[1]);
 		n = read(fd[0], line, MAXLINE);
