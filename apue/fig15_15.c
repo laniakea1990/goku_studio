@@ -1,6 +1,6 @@
 #include "apue.h"
 #include <sys/wait.h>
-
+#include "apueerror.h"
 int
 main(void)
 {

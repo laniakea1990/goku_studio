@@ -1,5 +1,6 @@
 #include "apue.h"
 #include <sys/wait.h>
+#include "apueerror.h"
 
 #define	DEF_PAGER	"/bin/more"		/* default pager program */
 

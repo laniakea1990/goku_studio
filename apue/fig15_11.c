@@ -1,6 +1,6 @@
 #include "apue.h"
 #include <sys/wait.h>
-
+#include "apueerror.h"
 #define	PAGER	"${PAGER:-more}" /* environment variable, or default */
 
 int

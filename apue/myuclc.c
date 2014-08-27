@@ -1,6 +1,6 @@
 #include "apue.h"
 #include <ctype.h>
-
+#include "apueerror.h"
 int
 main(void)
 {
